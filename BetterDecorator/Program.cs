@@ -4,6 +4,10 @@ namespace BetterDecorator
 {
     class Program
     {
+        /// <Receives a string, a char and an int>
+        /// 
+        /// <>
+        /// <Returns the string between the int number of chars on each side>
         static void Main(string[] args)
         {
             string s = "";
