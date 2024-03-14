@@ -16,10 +16,13 @@ namespace Special
             {
                 n2 = n2*2;
                 n3 = n1 + n2;
+                n2 = n1;
                 n1 = n3;
+                Console.WriteLine(n1);
 
             }
-            Console.WriteLine(n1);
+            string s1 = n1.ToString();
+            return n1;
         }
     
         static void Main(string[] args)
